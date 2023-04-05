@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .homepage_heading1{
     font-size: 80px;
@@ -9,33 +10,30 @@
     font-family: 'Baloo Bhai 2', cursive;
     font-style: regular;
 }
-
 .homecontainer{
     /* padding: 10px; */
     /* border: 4px solid rgb(245, 157, 43); */
     box-sizing: border-box;
+    overflow-x: hidden
 }
 .instaimg {
     position: absolute; 
-     left: 1.6%;
-    right: 98.1%;
-    /* top: 17.79%; */
-    top: 80%;
-    bottom: 79.57%;
-    background-color:blue;
+     top: 12.5rem;
+     left: 0.7rem;
+    /* background-color:blue;
     height: 10%;
-    width: 3%;
+    width: 3%; */
 }
 .instaimg img{
-    height: 80%;
-    width: auto;
+    height: 2.5rem;
+    width: 3rem;
 }
 
 .line1{
     position: absolute;
-    margin-top: 30px;
-    margin-left: 40px;
-    border-left: 3px solid #ffff;
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+    border-left: 2px solid #ffff;
      height: 156px;
 }
 .homecontainer{
@@ -44,10 +42,10 @@
 
 }
 .euphonylogo{
-    height: 61%;
-    width: 9%;
+    height: 10rem;
+    width: 6rem;
     padding: 2px;
-    background-color: red;
+    /* background-color: red; */
     overflow: hidden;
 }
 .euphonylogo img{
@@ -67,16 +65,15 @@
     color: #ffff;
 }
 .homeUpperdiv{
-    width: 100%;
-    position: relative;
-    height: 40%;
+    /* position: relative; */
+    padding-bottom: 1rem;
     background-color: #212121;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 .uppercentercontent{
     display: flex;
-    margin-top: 40px;
+    padding-top: 2rem;
     justify-content: space-between;
     flex-direction: column;
     justify-content: center;
@@ -94,9 +91,9 @@
 /* lower div worl */
 
 .homelowerdiv{
+    
     background-color: #101010;
-    /* width: ; */
-    height: 2000px;
+    padding-bottom: 5rem;
 }
 .para{
     width: 70%;
@@ -104,10 +101,10 @@
 }
 .line2{
     position: absolute;
-    margin-left: 40px;
-    border-left: 3px solid #ffff;
-    margin-top: 150px;
-     height: 200px;
+    margin-top: 5.5rem;
+    margin-left: 2.2rem;
+    border-left: 2px solid #ffff;
+     height: 156px;
 }
 .paraflex_container{
     display: flex;
@@ -115,20 +112,45 @@
     align-items:center;
 }
 .youtubeimg {
-    margin-top: 4px;
     position: absolute; 
-     left: 1.6%;
-    right: 98.1%;
-    /* top: 17.79%; */
-    top: 70%;
-    bottom: 79.57%;
-    /* background-color:blue; */
-    height: 18%;
-    width: 5%;
+     top: 17.5rem;
+     left: 0.7rem;  
 }
-.but_register{
-    margin-top: 40px;
+.youtubeimg img{
+    height: 2.5rem;
+    width: 3rem;
 }
-.but_register button{
-    font-size:x-large;
+#register_but{
+    width: 15rem;
+    height: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.075rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 20px;
+}
+#register_but:hover{
+    cursor: pointer;
+    background: #212121;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.homepage_reverbimg img{
+    height: 20rem;
+    width: 40rem;
+    margin-top: -5rem;
+}
+.down-arrow{
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+}
+.down-arrow img{
+    height: 3rem;
+    width: 3rem;
+    /* position: absolute;
+    top: 26rem;
+    left: 41.2rem; */
 }
