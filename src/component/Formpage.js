@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './asset/logo.png'
+import './formpage.css'
 const Formpage = () => {
   return (
     <div>
@@ -10,7 +11,7 @@ const Formpage = () => {
                 <img src={logo} alt="" />
             </div>
             <div className="formRverblogo">
-                
+
 
             </div>
           </div>
